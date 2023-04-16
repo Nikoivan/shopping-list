@@ -96,5 +96,5 @@ test("test for method add with Smartphones", () => {
 });
 
 test("test for method getItemById", () => {
-  expect(cart.getItemById(11)).toBeNull();
+  expect(cart.getItemById(11)).toBeUndefined();
 });
